@@ -1,0 +1,10 @@
+dotnet add package NUnit --version 4.0.1 
+
+From the main solution directory:
+    dotnet new console -o cube
+    dotnet new nunit -o testing  
+
+From the testing project directory:
+    dotnet add reference ../cube/cube.csproj 
+
+Assert.That(test_cube.GetVolume(), Is.EqualTo(8));
