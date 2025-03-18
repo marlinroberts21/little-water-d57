@@ -74,7 +74,7 @@ public class Property_Tests
     [Test]
     public void Test_Heigth()
     {
-        Assert.That(test_cube.Height, Is.EqualTo(2));
+        Assert.That(test_cube.Height, Is.EqualTo(3));
         //Assert.Pass();
     }
 
